@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+nav {
+    background-color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    font-size: 25px;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #8c8c8c;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: left;
+    padding: 10px 0;
+}
+.button {
+    display: inline-block;
+    padding: 19px 29px;
+    font-size: 25px;
+    color: white;
+    background-color: #de0000;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ae0000;
+}
+
+
+#home {
+    background-image: url('paint.jpg');
+    background-size: cover;
+    background-position: center;
+    background-size: 140%;
+    color: rgb(255, 255, 255); /* Ensure text is visible on the image */
+    padding: 150px; /* Adjust padding as needed */
+    text-align: center; /* Center align text */
+    font-size: 50px;
+}
+
+
+#about{
+    text-align: center;
+    font-size: 30px;
+}
